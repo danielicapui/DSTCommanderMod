@@ -1,15 +1,17 @@
--- modmain.lua (versão segura com tratamento de erro)
+-- modmain.lua (versão segura com tratamento de erro e correção de pcall)
 
 print("[DST_DiscordCommandMod] mod carregado")
 
 local GLOBAL = GLOBAL
+local pcall = GLOBAL.pcall
+local xpcall = GLOBAL.xpcall
 
 -- Prefabs ignorados
 local ignorar = {
     grass = true, sapling = true, flower = true, tree = true,
     pinecone = true, twiggytree = true, berrybush = true,
     evergreen = true, evergreen_sparse = true, deciduoustree = true,
-    oceantree_ripples_short = true, oceantree_roots_short = true
+    oceantree = true, oceantree_ripples_short = true, oceantree_roots_short = true
 }
 
 -- Bosses identificados por vida alta e som de morte
@@ -89,11 +91,8 @@ AddPrefabPostInitAny(function(inst)
             if inst and inst:IsValid() then
                 local prefab = inst.prefab or "??"
                 if not ignorar[prefab] then
-                    local attacker = inst.components.burnable and inst.components.burnable:GetLastAttacker()
-                    local autor = "desconhecido"
-                    if attacker and attacker.GetDisplayName then
-                        autor = attacker:GetDisplayName()
-                    end
+                    local causador = inst.components.burnable and inst.components.burnable:GetLastAttacker()
+                    local autor = (causador and causador.GetDisplayName and causador:GetDisplayName()) or "desconhecido"
                     print(string.format("[DST_EVENT] %s colocou fogo em '%s'", autor, prefab))
                 end
             end
@@ -103,12 +102,8 @@ AddPrefabPostInitAny(function(inst)
             if inst and inst:IsValid() then
                 local prefab = inst.prefab or "??"
                 if not ignorar[prefab] then
-                    local attacker = (inst.components and inst.components.combat and inst.components.combat.lastattacker)
-                        or inst.last_attacker
-                    local autor = "desconhecido"
-                    if attacker and attacker.GetDisplayName then
-                        autor = attacker:GetDisplayName()
-                    end
+                    local causador = inst.last_attacker
+                    local autor = (causador and causador.GetDisplayName and causador:GetDisplayName()) or "desconhecido"
                     print(string.format("[DST_EVENT] %s destruiu '%s'", autor, prefab))
                 end
             end
