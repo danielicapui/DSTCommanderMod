@@ -1,0 +1,659 @@
+[2025-06-23 09:40:31] Bot online como Charlie#8716
+[2025-06-23 09:40:31] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:40:31] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:40:36] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:40:36] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:40:41] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:40:41] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:40:46] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:40:46] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:40:51] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:40:51] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:40:56] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:40:56] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:01] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:01] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:06] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:06] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:11] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:11] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:16] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:16] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:21] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:21] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:26] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:26] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:31] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:31] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:36] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:36] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:41] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:41] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:46] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:46] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:51] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:51] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:41:56] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:41:56] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:42:01] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:01] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:42:06] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:06] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:42:11] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:11] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:42:16] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:21] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:21] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:42:26] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:26] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:42:31] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:31] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:42:36] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:36] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:42:41] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:41] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:42:46] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:46] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:42:51] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:51] Mensagem do chat DST enviada ao Discord: 00:02:21: [Say] (KU_DQsgwpiP) Akeno_Misaki: teste
+[2025-06-23 09:42:56] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:42:56] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:01] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:01] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:03] Comando escrito no arquivo: TheNet:SystemMessage("[DISCORD] Akeno Misaki: ola")
+[2025-06-23 09:43:04] Mensagem do Discord enviada para o jogo: ola
+[2025-06-23 09:43:06] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:06] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:11] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:11] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:16] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:16] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:21] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:21] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:21] Comando escrito no arquivo: c_rollback(1)
+[2025-06-23 09:43:22] Rollback de 1 dias enviado.
+[2025-06-23 09:43:26] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:26] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:31] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:31] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:36] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:36] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:41] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:41] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:46] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:46] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:51] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:51] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:43:56] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:43:56] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:01] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:01] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:06] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:06] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:11] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:11] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:16] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:16] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:21] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:21] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:26] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:26] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:31] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:31] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:36] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:36] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:41] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:41] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:46] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:46] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:51] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:51] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:44:56] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:44:56] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:01] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:01] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:06] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:06] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:11] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:11] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:16] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:16] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:21] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:21] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:26] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:26] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:31] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:31] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:36] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:36] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:41] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:41] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:46] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:46] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:51] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:51] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:45:56] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:45:56] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:01] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:01] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:06] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:06] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:11] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:11] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:16] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:16] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:21] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:21] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:26] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:26] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:31] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:31] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:36] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:36] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:41] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:41] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:46] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:46] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:51] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:51] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:46:56] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:46:56] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:47:01] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:47:01] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:47:17] Bot online como Charlie#8716
+[2025-06-23 09:47:17] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:47:17] Mensagem do chat DST enviada ao Discord: 00:02:21: [Say] (KU_DQsgwpiP) Akeno_Misaki: teste
+[2025-06-23 09:47:22] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:47:22] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:47:26] Comando escrito no arquivo: c_rollback(1)
+[2025-06-23 09:47:26] Rollback de 1 dias enviado.
+[2025-06-23 09:47:27] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:47:27] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:47:32] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:47:32] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:47:37] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:47:37] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:47:42] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:47:42] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:47:47] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:47:47] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:47:52] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:47:52] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:47:57] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:47:57] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:02] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:02] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:07] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:07] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:12] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:12] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:17] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:17] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:22] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:22] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:27] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:27] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:32] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:32] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:37] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:37] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:42] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:42] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:47] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:47] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:52] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:52] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:48:57] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:48:57] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:02] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:02] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:07] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:07] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:12] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:12] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:17] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:17] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:22] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:22] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:27] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:27] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:32] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:32] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:37] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:37] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:42] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:42] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:47] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:47] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:52] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:52] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:49:57] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:49:57] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:02] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:02] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:07] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:07] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:12] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:12] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:17] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:17] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:22] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:22] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:27] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:27] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:32] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:32] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:37] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:37] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:42] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:42] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:47] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:47] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:52] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:52] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:50:57] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:50:57] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:02] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:02] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:07] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:07] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:12] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:12] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:17] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:17] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:22] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:22] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:27] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:27] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:32] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:32] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:37] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:37] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:42] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:42] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:47] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:47] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:52] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:52] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:51:57] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:51:57] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:02] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:02] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:07] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:07] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:12] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:12] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:17] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:17] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:22] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:22] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:27] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:27] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:32] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:32] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:37] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:37] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:42] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:42] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:47] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:47] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:52] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:52] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:52:57] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:52:57] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:53:02] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:53:02] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:53:07] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:53:07] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:53:12] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:53:12] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:53:17] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:53:17] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:53:22] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:53:22] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:53:27] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:53:27] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:53:32] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:53:32] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:53:37] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:53:37] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:53:42] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:53:42] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:54:10] Bot online como Charlie#8716
+[2025-06-23 09:54:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:54:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:54:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:54:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:54:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:54:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:54:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:54:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:54:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:54:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:54:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:54:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:54:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:54:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:54:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:54:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:54:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:54:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:54:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:54:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:55:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:55:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:28] Comando escrito no arquivo: TheNet:SystemMessage("[DISCORD] Akeno Misaki: /rollback 1")
+[2025-06-23 09:56:29] Mensagem do Discord enviada para o jogo: /rollback 1
+[2025-06-23 09:56:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:47] Comando escrito no arquivo: c_rollback(1)
+[2025-06-23 09:56:47] Rollback de 1 dias enviado.
+[2025-06-23 09:56:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:56:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:56:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:57:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:57:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:57:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:57:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:57:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:57:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:57:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:30] Mensagem do chat DST enviada ao Discord: 00:03:19: [Say] (KU_DQsgwpiP) Akeno_Misaki: teste
+[2025-06-23 09:57:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:35] Mensagem do chat DST enviada ao Discord: 00:03:25: [Say] (KU_DQsgwpiP) Akeno_Misaki: !rollback 1
+[2025-06-23 09:57:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:57:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:57:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:57:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:57:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:58:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:58:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:36] Comando escrito no arquivo: c_regenerateworld()
+[2025-06-23 09:59:37] Comando regenerateworld enviado.
+[2025-06-23 09:59:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 09:59:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 09:59:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:00:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:00:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:01:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:01:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:02:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:02:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:03:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:03:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:04:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:04:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:05:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:05:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:15] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:15] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:20] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:20] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:25] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:25] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:30] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:30] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:35] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:35] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:40] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:40] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:45] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:45] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:50] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:50] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:06:55] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:06:55] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:07:00] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:07:00] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:07:05] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:07:05] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:07:10] Nenhuma mensagem nova do jogo para enviar ao Discord.
+[2025-06-23 10:07:10] Nenhuma mensagem nova no chat do DST.
+[2025-06-23 10:42:18] ✅ Bot online como Charlie#8716 e comandos slash sincronizados (global)
+[2025-06-23 10:48:16] ✅ Bot online como Charlie#8716 e comandos slash sincronizados (global)
+[2025-06-23 10:53:51] → Comando escrito: c_regenerateworld()
+[2025-06-23 10:54:56] → (Chat DST → Discord): 00:06:39: [Say] (KU_DQsgwpiP) Akeno_Misaki: teste
+[2025-06-23 10:55:12] → Comando escrito: TheNet:SystemMessage("[DISCORD] Sigly: Testado")
+[2025-06-23 10:55:12] Mensagem enviada: Testado
+[2025-06-23 10:55:17] → Comando escrito: TheNet:SystemMessage("[DISCORD] Sigly: 😄")
+[2025-06-23 10:55:17] Mensagem enviada: 😄
+[2025-06-23 10:55:42] → (Chat DST → Discord): 00:07:26: [Say] (KU_DQsgwpiP) Akeno_Misaki: é ainda não está enviando no dst só do discord
+[2025-06-23 11:07:20] ✅ Bot online como Charlie#8716 e comandos slash sincronizados (global)
+[2025-06-23 11:07:21] → (Chat DST → Discord): 00:06:39: [Say] (KU_DQsgwpiP) Akeno_Misaki: teste
+[2025-06-23 11:07:21] → (Chat DST → Discord): 00:07:26: [Say] (KU_DQsgwpiP) Akeno_Misaki: é ainda não está enviando no dst só do discord
+[2025-06-23 11:10:37] → Comando escrito: c_regenerateworld()
+[2025-06-23 11:11:50] → Comando escrito: c_rollback(1)
+[2025-06-23 11:12:16] → Comando escrito: TheNet:SystemMessage("[DISCORD] Akeno Misaki: é só falta o lado do discord mesmo.")
+[2025-06-23 11:12:16] Mensagem enviada: é só falta o lado do discord mesmo.
+[2025-06-23 11:45:49] ✅ Bot online como Charlie#8716 e comandos slash sincronizados (global)
+[2025-06-23 12:25:09] → (Chat DST → Discord): 00:05:18: [Say] (KU_DQsgwpiP) Akeno_Misaki: oi
