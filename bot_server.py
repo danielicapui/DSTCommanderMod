@@ -5,6 +5,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import traceback
+
 # Carrega variáveis do .env
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
@@ -13,15 +14,13 @@ DISABLE_LOGS = os.getenv("DISABLE_LOGS", "false").lower() == "true"
 DST_SERVER_EXE = os.getenv("DST_SERVER_EXE")
 DST_SERVER_CWD = os.getenv("DST_SERVER_CWD")
 DST_CLUSTER_NAME = os.getenv("DST_CLUSTER_NAME")
-CHANNEL_IDS = [int(x) for x in os.getenv("CHANNEL_IDS", "").split(",") if x.strip()]
-CHANNEL_ID_TO_SEND = int(os.getenv("CHANNEL_ID_TO_SEND", "0"))
+CHANNEL_ID_TO_SEND = 1386705692932706364
+CHANNEL_IDS = [CHANNEL_ID_TO_SEND]
 
 if not all([TOKEN, DST_SERVER_EXE, DST_SERVER_CWD, DST_CLUSTER_NAME]):
-    
     print("[ERRO] Verifique variáveis de ambiente obrigatórias.")
     exit(1)
 
-# Configuração do bot
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -43,34 +42,30 @@ async def read_server_stdout():
                 print(f"[DST_LOG] {text}")
 
             if "[DISCORD]" in text:
-                continue  # Evita loop
+                continue
 
             canal = bot.get_channel(CHANNEL_ID_TO_SEND)
             if not canal:
                 continue
 
-            # 🎤 Mensagem formatada do mod
             match = re.search(r"\[DST_CHAT]\[(.+?)] (.+?): (.+)", text)
             if match:
                 shard, nome, msg = match.groups()
                 await canal.send(f"💬 [{shard}] {nome}: {msg}")
                 continue
 
-            # 📢 Mensagem de sistema
             match = re.search(r'TheNet:SystemMessage\("(.+?)"\)', text)
             if match and "[DISCORD]" not in match.group(1):
                 mensagem = match.group(1)
-                await canal.send(f"📢 {mensagem}")
+                await canal.send(f"📲 {mensagem}")
                 continue
 
-            # 🗣️ Fallback do console
             match = re.search(r"\[Say] \(\w+\) ([^:]+): (.+)", text)
             if match:
                 nome, msg = match.groups()
                 await canal.send(f"💬 {nome}: {msg}")
                 continue
 
-            # ⚰️ Eventos genéricos
             match = re.search(r"\[DST_EVENT] (.+)", text)
             if match:
                 evento = match.group(1)
@@ -108,7 +103,7 @@ async def start_server():
 async def send_command_to_dst(cmd: str):
     global dst_process
     if dst_process is None or dst_process.stdin is None:
-        if not DISABLE_LOGS: 
+        if not DISABLE_LOGS:
             print("[ERRO] Processo DST não iniciado ou stdin não disponível")
         return False
     try:
@@ -126,27 +121,22 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.author.bot:
+    if message.author.bot or message.channel.id != CHANNEL_ID_TO_SEND:
         return
 
     ctx = await bot.get_context(message)
-
-    # Se for um comando (!comando), só executa o comando
     if ctx.valid:
         await bot.process_commands(message)
         return
 
-    # Se for uma mensagem comum em canal monitorado, envia ao jogo
-    if message.channel.id in CHANNEL_IDS and message.channel.id != CHANNEL_ID_TO_SEND:
-        texto = message.content.strip()
-        if texto:
-            cmd = f'TheNet:SystemMessage("[DISCORD] {message.author.display_name}: {texto}")'
-            if await send_command_to_dst(cmd):
-                await message.channel.send("✅ Enviado ao jogo.")
-            else:
-                await message.channel.send("❌ Falha ao enviar.")
+    texto = message.content.strip()
+    if texto:
+        cmd = f'TheNet:SystemMessage("[DISCORD] {message.author.display_name}: {texto}")'
+        if await send_command_to_dst(cmd):
+            await message.channel.send("✅ Enviado ao jogo.")
+        else:
+            await message.channel.send("❌ Falha ao enviar.")
 
-# Comandos administrativos
 @bot.command()
 @commands.has_permissions(administrator=True)
 async def regenerate(ctx):
@@ -172,9 +162,7 @@ async def kill(ctx, *, jogador: str = None):
         return await ctx.send("Use `!kill <nome|todos>`")
     jogador = jogador.replace('"', '\\"')
     cmd = "c_killallplayers()" if jogador.lower() == "todos" else (
-        f'for i,v in ipairs(AllPlayers) do '
-        f'if v:GetDisplayName() == "{jogador}" then '
-        f'v.components.health:Kill() end end'
+        f'for i,v in ipairs(AllPlayers) do if v:GetDisplayName() == "{jogador}" then v.components.health:Kill() end end'
     )
     if await send_command_to_dst(cmd):
         await ctx.send(f"☠️ Kill: {jogador}")
@@ -188,26 +176,27 @@ async def revive(ctx, *, jogador: str = None):
         return await ctx.send("Use `!revive <nome|todos>`")
     jogador = jogador.replace('"', '\\"')
     cmd = "c_reviveallplayers()" if jogador.lower() == "todos" else (
-        f'for i,v in ipairs(AllPlayers) do '
-        f'if v:GetDisplayName() == "{jogador}" then '
-        f'v:PushEvent("respawnfromghost") end end'
+        f'for i,v in ipairs(AllPlayers) do if v:GetDisplayName() == "{jogador}" then v:PushEvent("respawnfromghost") end end'
     )
     if await send_command_to_dst(cmd):
         await ctx.send(f"❤️ Revive: {jogador}")
     else:
         await ctx.send("❌ Falha ao reviver jogador.")
+
 @bot.command()
 async def players(ctx):
     lua_code = (
         'local names={}\n'
         'for i, v in ipairs(AllPlayers) do\n'
-        '   table.insert(names,v:GetDisplayName())\n'
+        '   if v:GetDisplayName() and v.userid ~= "CHARLIE" then\n'
+        '       table.insert(names, v:GetDisplayName())\n'
+        '   end\n'
         'end\n'
-        'local msg="Jogadores online: ".. table.concat(names, ", ")\n'
-        'TheNet:SystemMessage(msg)'
+        'TheNet:SystemMessage("Jogadores online: " .. table.concat(names, ", "))'
     )
     if await send_command_to_dst(lua_code):
-        await ctx.send("👥 Solicitando lista de jogadores...")
+        await ctx.send("👥 Consultando jogadores no servidor...")
     else:
         await ctx.send("❌ Não foi possível consultar os jogadores.")
+
 bot.run(TOKEN)
