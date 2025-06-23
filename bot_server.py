@@ -4,7 +4,7 @@ import asyncio
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-
+import traceback
 # Carrega variáveis do .env
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
@@ -31,36 +31,56 @@ dst_process = None
 async def read_server_stdout():
     global dst_process
     reader = dst_process.stdout
+
     while True:
-        line = await reader.readline()
-        if not line:
-            break
         try:
+            line = await reader.readline()
+            if not line:
+                break
+
             text = line.decode("utf-8", errors="ignore").strip()
-        except:
-            continue
-        if not DISABLE_LOGS:
-            print(f"[DST_LOG] {text}")
+            if not DISABLE_LOGS:
+                print(f"[DST_LOG] {text}")
 
-        if "[DISCORD]" in text:
-            continue  # evita loop de mensagens
+            if "[DISCORD]" in text:
+                continue  # Evita loop
 
-        # Captura mensagens formatadas pelo mod: [DST_CHAT][Shard] Nome: Mensagem
-        match = re.search(r"\[DST_CHAT\]\[(.+?)] (.+?): (.+)", text)
-        if match:
-            shard, nome, msg = match.groups()
             canal = bot.get_channel(CHANNEL_ID_TO_SEND)
-            if canal:
+            if not canal:
+                continue
+
+            # 🎤 Mensagem formatada do mod
+            match = re.search(r"\[DST_CHAT]\[(.+?)] (.+?): (.+)", text)
+            if match:
+                shard, nome, msg = match.groups()
                 await canal.send(f"💬 [{shard}] {nome}: {msg}")
-            continue
+                continue
 
-        # Captura fallback caso o mod não funcione: [Say] (KU_xxxx) Nome: Mensagem
-        match = re.search(r"\[Say\] \(\w+\) ([^:]+): (.+)", text)
-        if match:
-            nome, msg = match.groups()
-            canal = bot.get_channel(CHANNEL_ID_TO_SEND)
-            if canal:
+            # 📢 Mensagem de sistema
+            match = re.search(r'TheNet:SystemMessage\("(.+?)"\)', text)
+            if match and "[DISCORD]" not in match.group(1):
+                mensagem = match.group(1)
+                await canal.send(f"📢 {mensagem}")
+                continue
+
+            # 🗣️ Fallback do console
+            match = re.search(r"\[Say] \(\w+\) ([^:]+): (.+)", text)
+            if match:
+                nome, msg = match.groups()
                 await canal.send(f"💬 {nome}: {msg}")
+                continue
+
+            # ⚰️ Eventos genéricos
+            match = re.search(r"\[DST_EVENT] (.+)", text)
+            if match:
+                evento = match.group(1)
+                await canal.send(f"📜 {evento}")
+                continue
+
+        except Exception as e:
+            print(f"[ERRO] Falha ao processar linha do servidor: {e}")
+            traceback.print_exc()
+
 async def start_server():
     global dst_process
     shards = ["Master", "Caves"]
