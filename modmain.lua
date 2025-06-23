@@ -1,18 +1,13 @@
--- modmain.lua (versão segura com tratamento de erro e correção de pcall)
-
 print("[DST_DiscordCommandMod] mod carregado")
 
 local GLOBAL = GLOBAL
-local pcall = GLOBAL.pcall
-local xpcall = GLOBAL.xpcall
 
--- Prefabs ignorados
-local ignorar = {
-    grass = true, sapling = true, flower = true, tree = true,
-    pinecone = true, twiggytree = true, berrybush = true,
-    evergreen = true, evergreen_sparse = true, deciduoustree = true,
-    oceantree = true, oceantree_ripples_short = true, oceantree_roots_short = true
-}
+-- Prefabs ignorados (não usados agora porque removemos destruição e queima)
+-- local ignorar = {
+--     grass = true, sapling = true, flower = true, tree = true,
+--     pinecone = true, twiggytree = true, berrybush = true,
+--     evergreen = true, evergreen_sparse = true, deciduoustree = true
+-- }
 
 -- Bosses identificados por vida alta e som de morte
 local bosses = {}
@@ -25,12 +20,25 @@ end
 -- Protegido AddPlayerPostInit
 AddPlayerPostInit(function(inst)
     local ok, err = pcall(function()
-        local nome = inst.GetDisplayName and inst:GetDisplayName() or "??"
+        -- Pega userid do jogador para usar no log (nome real do player)
+        local nome_jogador = "??"
+        if inst.userid then
+            nome_jogador = inst.userid
+        elseif inst.player_classified and inst.player_classified.userid then
+            nome_jogador = inst.player_classified.userid:value() or "??"
+        else
+            nome_jogador = inst.GetDisplayName and inst:GetDisplayName() or "??"
+        end
+
+        -- Pega nome do personagem para ignorar a Charlie
+        local nome_char = inst:GetDisplayName() or "??"
 
         inst:ListenForEvent("say", function(_, data)
             if data and data.message then
-                local shard = GLOBAL.TheWorld and (GLOBAL.TheWorld.ismastersim and "Master" or "Caves") or "??"
-                print(string.format("[DST_CHAT][%s] %s: %s", shard, nome, data.message))
+                if nome_char ~= "Charlie" then
+                    local shard = GLOBAL.TheWorld and (GLOBAL.TheWorld.ismastersim and "Master" or "Caves") or "??"
+                    print(string.format("[DST_CHAT][%s] %s: %s", shard, nome_jogador, data.message))
+                end
             end
         end)
 
@@ -45,7 +53,7 @@ AddPlayerPostInit(function(inst)
                     causa = data.cause
                 end
             end
-            print(string.format("[DST_EVENT] %s morreu (causa: %s)", nome, causa))
+            print(string.format("[DST_EVENT] %s morreu (causa: %s)", nome_jogador, causa))
         end)
 
         inst:ListenForEvent("ms_respawnedfromghost", function(_, data)
@@ -56,24 +64,24 @@ AddPlayerPostInit(function(inst)
 
         inst:ListenForEvent("ms_playerspawn", function()
             if inst.revivido_por then
-                print(string.format("[DST_EVENT] %s foi revivido por %s", nome, inst.revivido_por))
+                print(string.format("[DST_EVENT] %s foi revivido por %s", nome_jogador, inst.revivido_por))
                 inst.revivido_por = nil
             else
-                print(string.format("[DST_EVENT] %s renasceu", nome))
+                print(string.format("[DST_EVENT] %s renasceu", nome_jogador))
             end
         end)
 
         inst:DoTaskInTime(0, function()
-            print(string.format("[DST_EVENT] %s entrou no servidor", nome))
+            print(string.format("[DST_EVENT] %s entrou no servidor", nome_jogador))
         end)
 
         inst:ListenForEvent("shardtransition", function(_, data)
             local destino = (data and data.to) or "desconhecido"
-            print(string.format("[DST_EVENT] %s mudou para o shard: %s", nome, destino))
+            print(string.format("[DST_EVENT] %s mudou para o shard: %s", nome_jogador, destino))
         end)
 
         inst:ListenForEvent("ms_playerleft", function()
-            print(string.format("[DST_EVENT] %s saiu do servidor", nome))
+            print(string.format("[DST_EVENT] %s saiu do servidor", nome_jogador))
         end)
     end)
 
@@ -82,51 +90,7 @@ AddPlayerPostInit(function(inst)
     end
 end)
 
--- Protegido AddPrefabPostInitAny
-AddPrefabPostInitAny(function(inst)
-    if not GLOBAL.TheNet:GetIsServer() then return end
-
-    local ok, err = pcall(function()
-        inst:ListenForEvent("onignite", function()
-            if inst and inst:IsValid() then
-                local prefab = inst.prefab or "??"
-                if not ignorar[prefab] then
-                    local causador = inst.components.burnable and inst.components.burnable:GetLastAttacker()
-                    local autor = (causador and causador.GetDisplayName and causador:GetDisplayName()) or "desconhecido"
-                    print(string.format("[DST_EVENT] %s colocou fogo em '%s'", autor, prefab))
-                end
-            end
-        end)
-
-        inst:ListenForEvent("onremove", function()
-            if inst and inst:IsValid() then
-                local prefab = inst.prefab or "??"
-                if not ignorar[prefab] then
-                    local causador = inst.last_attacker
-                    local autor = (causador and causador.GetDisplayName and causador:GetDisplayName()) or "desconhecido"
-                    print(string.format("[DST_EVENT] %s destruiu '%s'", autor, prefab))
-                end
-            end
-        end)
-
-        inst:ListenForEvent("death", function()
-            if inst and inst.prefab and bosses[inst.prefab] then
-                local killer = "desconhecido"
-                if inst.components and inst.components.combat then
-                    local atk = inst.components.combat.lastattacker
-                    if atk and atk.GetDisplayName then
-                        killer = atk:GetDisplayName()
-                    end
-                end
-                print(string.format("[DST_EVENT] %s derrotou o boss '%s'", killer, inst.prefab))
-            end
-        end)
-    end)
-
-    if not ok then
-        print("[DST_DiscordCommandMod][ERRO] em AddPrefabPostInitAny: " .. tostring(err))
-    end
-end)
+-- Removei a parte de ouvir eventos de queimar e destruir para evitar flood e crashes
 
 -- Inicialização do shard
 AddSimPostInit(function()
