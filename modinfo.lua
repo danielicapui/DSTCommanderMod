@@ -1,7 +1,7 @@
 name = "Discord Command Executor"
 description = "Executa comandos recebidos via Discord usando um arquivo intermediário."
 author = "Daniel Lucas"
-version = "1.0"
+version = "1.1"
 api_version = 10
 dst_compatible = true
 server_only_mod = true
