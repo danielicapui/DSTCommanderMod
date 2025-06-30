@@ -254,17 +254,29 @@ async def start_server():
     else:
         print("[ERRO] Canal do Discord não encontrado para enviar mensagem de status.")
 
-async def send_command_to_dst(cmd: str):
-    if dst_process_master is None or dst_process_master.stdin is None:
-        print("[ERRO] Processo DST Master não iniciado ou stdin não disponível")
-        return False
-    try:
-        dst_process_master.stdin.write((cmd + "\n").encode("utf-8"))
-        await dst_process_master.stdin.drain()
-        return True
-    except Exception as e:
-        print(f"[ERRO] Falha ao enviar comando: {e}")
-        return False
+# async def send_command_to_dst(cmd: str):
+#     if dst_process_master is None or dst_process_master.stdin is None:
+#         print("[ERRO] Processo DST Master não iniciado ou stdin não disponível")
+#         return False
+#     try:
+#         dst_process_master.stdin.write((cmd + "\n").encode("utf-8"))
+#         await dst_process_master.stdin.drain()
+#         return True
+#     except Exception as e:
+#         print(f"[ERRO] Falha ao enviar comando: {e}")
+#         return False
+
+async def send_command_to_all_shards(cmd: str):
+    sucesso = False
+    for shard, proc in dst_processes.items():
+        if proc and proc.stdin:
+            try:
+                proc.stdin.write((cmd + "\n").encode("utf-8"))
+                await proc.stdin.drain()
+                sucesso = True
+            except Exception as e:
+                print(f"[ERRO] Falha ao enviar comando para {shard}: {e}")
+    return sucesso
 
 @bot.event
 async def on_ready():
@@ -278,13 +290,20 @@ async def on_message(message):
 
     texto = message.content.strip()
     if texto:
-        cmd = f'TheNet:SystemMessage("[DISCORD] {message.author.display_name}: {texto}")'
-        enviado = await send_command_to_dst(cmd)
+        texto_escapado = texto.replace('"', '\\"')
+        nome_escapado = message.author.display_name.replace('"', '\\"')
+        cmd = f'TheNet:SystemMessage("[DISCORD] {nome_escapado}: {texto_escapado}")'
+        enviado = False
+        if dst_process_master and dst_process_master.stdin:
+            try:
+                dst_process_master.stdin.write((cmd + "\n").encode("utf-8"))
+                await dst_process_master.stdin.drain()
+                enviado = True
+            except Exception as e:
+                print(f"[ERRO] Falha ao enviar mensagem Discord para shard Master: {e}")
+
         if confirma_envio_discord:
-            if enviado:
-                await message.channel.send("✅ Enviado ao jogo.")
-            else:
-                await message.channel.send("❌ Falha ao enviar.")
+            await message.channel.send("✅ Enviado ao jogo." if enviado else "❌ Falha ao enviar.")
 
     await bot.process_commands(message)
 
@@ -308,7 +327,7 @@ async def confirmar(ctx, modo: str = None):
 @bot.command()
 async def players(ctx):
     lua_code = 'local names = {}; for i, v in ipairs(AllPlayers) do if v:GetDisplayName() and v.userid ~= "CHARLIE" then table.insert(names, v:GetDisplayName()) end end; TheNet:SystemMessage("Jogadores online: " .. table.concat(names, ","))'
-    if await send_command_to_dst(lua_code):
+    if await send_command_to_all_shards(lua_code):
         await ctx.send("👥 Consultando jogadores no servidor...")
     else:
         await ctx.send("❌ Não foi possível consultar os jogadores.")
@@ -316,7 +335,7 @@ async def players(ctx):
 @bot.command()
 @commands.has_permissions(administrator=True)
 async def regenerate(ctx):
-    if await send_command_to_dst("c_regenerateworld()"):
+    if await send_command_to_all_shards("c_regenerateworld()"):
         await ctx.send("🌍 Mundo regenerado.")
     else:
         await ctx.send("❌ Falha ao regenerar.")
@@ -326,7 +345,7 @@ async def regenerate(ctx):
 async def rollback(ctx, dias: int = 1):
     if dias < 1:
         return await ctx.send("⚠️ Dias inválidos.")
-    if await send_command_to_dst(f"c_rollback({dias})"):
+    if await send_command_to_all_shards(f"c_rollback({dias})"):
         await ctx.send(f"⏪ Revertido {dias} dia(s).")
     else:
         await ctx.send("❌ Falha ao reverter.")
@@ -340,55 +359,24 @@ async def kill(ctx, *, jogador: str = None):
     cmd = "c_killallplayers()" if jogador.lower() == "todos" else (
         f'for i,v in ipairs(AllPlayers) do if v:GetDisplayName() == "{jogador}" then v.components.health:Kill() end end'
     )
-    if await send_command_to_dst(cmd):
+    if await send_command_to_all_shards(cmd):
         await ctx.send(f"☠️ Kill: {jogador}")
     else:
         await ctx.send("❌ Falha ao matar jogador.")
 
 @bot.command()
 @commands.has_permissions(administrator=True)
-async def revive(ctx, *, jogador: str = None):
+async def fogueira(ctx, *, jogador: str = None):
     if not jogador:
         return await ctx.send("Use `!revive <nome|todos>`")
     jogador = jogador.replace('"', '\\"')
     cmd = "c_reviveallplayers()" if jogador.lower() == "todos" else (
         f'for i,v in ipairs(AllPlayers) do if v:GetDisplayName() == "{jogador}" then v:PushEvent("respawnfromghost") end end'
     )
-    if await send_command_to_dst(cmd):
+    if await send_command_to_all_shards(cmd):
         await ctx.send(f"❤️ Revive: {jogador}")
     else:
         await ctx.send("❌ Falha ao reviver jogador.")
-
-@bot.command()
-async def rank(ctx):
-    try:
-        bountydata_path = os.path.join(CLUSTER_PATH, "Master", "bountydata")
-        if not os.path.exists(bountydata_path):
-            return await ctx.send("❌ Pasta 'bountydata' não encontrada.")
-
-        jogadores = []
-        for file in os.listdir(bountydata_path):
-            if file.endswith("_bounty"):
-                path = os.path.join(bountydata_path, file)
-                with open(path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    nome = file.split("_")[0]
-                    love_efetivo = data.get("love_efetivo", 0)
-                    jogadores.append({"name": nome, "love": love_efetivo})
-
-        if not jogadores:
-            return await ctx.send("🏆 Ninguém possui LOVE ainda.")
-
-        top = sorted(jogadores, key=lambda x: x["love"], reverse=True)[:10]
-        mensagem = "**🏆 Top 10 - Ranking de LOVE Efetivo**\n"
-        for i, entry in enumerate(top, 1):
-            mensagem += f"{i}. {entry['name']} - {entry['love']} LOVE\n"
-
-        await ctx.send(mensagem)
-
-    except Exception as e:
-        await ctx.send(f"❌ Erro ao carregar o ranking: {e}")
-
 
 @bot.command(name="lua")
 @commands.has_permissions(administrator=True)
@@ -408,7 +396,7 @@ TheWorld:DoTaskInTime(0, function()
 end)
 """.strip()
 
-    sucesso = await send_command_to_dst(comando)
+    sucesso = await send_command_to_all_shards(comando)
 
     if sucesso:
         await ctx.send("✅ Código Lua enviado com sucesso ao servidor.")
@@ -454,5 +442,21 @@ async def love(ctx, alvo: str = None, valor: int = 0):
 
     if not aplicou:
         await ctx.send(f"⚠️ Nenhum jogador encontrado com nome/ID: `{alvo}`.")
+
+@bot.command()
+async def verificar(ctx, discordid: str):
+    bountydata_path = os.path.join(CLUSTER_PATH, "Master", "bountydata")
+    achou = False
+    for file in os.listdir(bountydata_path):
+        if file.endswith("_bounty"):
+            path = os.path.join(bountydata_path, file)
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if str(data.get("discord_id", "")) == discordid:
+                await ctx.send(f"✅ O Discord ID `{discordid}` está vinculado ao jogador `{file.split('_')[0]}`.")
+                achou = True
+                break
+    if not achou:
+        await ctx.send(f"❌ Discord ID `{discordid}` não encontrado.")
 
 bot.run(TOKEN)
